@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>StayEase Hotel Management</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">StayEase <span>Hotel Management</span></div>
+    <nav><a href="#rooms">Rooms</a><a href="#about">About</a></nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">WELCOME TO STAYEASE</p>
+      <h1>Find your comfortable stay.</h1>
+      <p>A small demo hotel management website for practicing Git and GitHub.</p>
+      <a class="primary-link" href="#rooms">Explore rooms</a>
+    </section>
+
+    <section id="rooms" class="section">
+      <div class="section-heading">
+        <div><p class="eyebrow">OUR ROOMS</p><h2>Choose your room</h2></div>
+        <input id="roomSearch" type="search" placeholder="Search rooms..." aria-label="Search rooms">
+      </div>
+      <div id="roomList" class="room-grid"></div>
+      <p id="emptyMessage" class="empty hidden">No rooms match your search.</p>
+    </section>
+
+    <section id="about" class="about section">
+      <h2>Simple, friendly stays</h2>
+      <p>This demo uses sample data only. Booking buttons display a confirmation message and do not create real reservations.</p>
+    </section>
+  </main>
+
+  <footer><p>© 2026 StayEase Demo · Practice project for Gitflow</p></footer>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
