@@ -18,3 +18,5 @@ Open `index.html` in your browser. No installation or database is required.
 4. Make a small change in the feature branch and commit it.
 5. Merge the feature branch into `develop`.
 6. To practice a merge conflict, edit the same line in `README.md` on two branches, commit both changes, then merge one branch into the other.
+
+Feature added: Room search functionality.
