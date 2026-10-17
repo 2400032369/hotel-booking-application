@@ -1,4 +1,4 @@
-# Hotel Management System (Dummy Project)
+# Hotel Management System - Version B
 
 A simple static HTML/CSS/JavaScript project for practicing Git and Gitflow.
 
